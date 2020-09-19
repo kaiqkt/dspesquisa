@@ -11,7 +11,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.Instant;
-import java.util.List;
 
 @RestController
 @RequestMapping(value = "/records")
@@ -31,7 +30,7 @@ public class RecordResources {
             @RequestParam(value = "min", defaultValue = "") String min,
             @RequestParam(value = "max", defaultValue = "") String max,
             @RequestParam(value = "page", defaultValue = "0") Integer page,
-            @RequestParam(value = "linesPerPage", defaultValue = "12") Integer linesPerPage,
+            @RequestParam(value = "linesPerPage", defaultValue = "0") Integer linesPerPage,
             @RequestParam(value = "orderBy", defaultValue = "moment") String orderBy,
             @RequestParam(value = "direction", defaultValue = "DESC") String direction) {
 
