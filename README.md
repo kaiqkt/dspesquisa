@@ -1,6 +1,6 @@
 # dspesquisa
-Este é um projeto que fiz durante a semana dev superior
+<h1>Projeto realizado durante a semana do dev superior<h1/>
 
-A aplicação web pode ser acessada pelo seguinte link : https://sds1-kaique.netlify.app/
-E o back end pelo link: https://sds1-dspesquisa-kaique.herokuapp.com
-usando as uris = "/records" "games"
+<br>A aplicação web: https://sds1-kaique.netlify.app/<br/>
+<br>Os endpoints foram deployados no heroku e podem ser acessadar pelo seguinte link: https://sds1-dspesquisa-kaique.herokuapp.com<br/>
+<br>usando as uris = "/records" "/games"<br/>
